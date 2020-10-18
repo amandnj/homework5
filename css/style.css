@@ -159,7 +159,7 @@ header{
 .nav_links{
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  justify-content: center;
   /*does this need to be more things*/
 }
 
@@ -192,14 +192,14 @@ header{
   header{
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: flex-start;
   }
     
 
   .nav_links{
     display: flex;
     flex-direction: row;
-    justify-content: right; /*is this the best way to align to the right side???*/
+    justify-content: flex-end; /*is this the best way to align to the right side???*/
   }
 
   .nav_item a{
