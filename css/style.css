@@ -62,7 +62,6 @@ footer{
 @keyframes logo_wiggle{
   from {width: 25px;}
   to {width: 420px;}
-  /*why is this twice could be issues*/
 
 } 
 
@@ -74,10 +73,11 @@ footer{
 
 /* Cards! */
 .pricing{
+    display: flex;
     min-height: 500px;
     justify-content: center;
     align-items: center;
-  /*center content inside cards??*/
+    flex-wrap: wrap;
   
 }
 
@@ -137,6 +137,7 @@ footer{
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery > img{
@@ -149,6 +150,8 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
+  display: flex;
+  justify-content: center;
   align-items: center;
   
 }
@@ -156,6 +159,7 @@ header{
 .nav_links{
   display: flex;
   flex-direction: column;
+  justify-content: right;
   /*does this need to be more things*/
 }
 
@@ -187,13 +191,14 @@ header{
   /* Navbar */
   header{
     display: flex;
+    flex-direction: column;
   }
-    /*something else*/
+    
 
   .nav_links{
     display: flex;
     flex-direction: row;
-    align: right; /*is this the best way to align to the right side*/
+    justify-content: right; /*is this the best way to align to the right side???*/
   }
 
   .nav_item a{
@@ -209,7 +214,7 @@ header{
   background: transparent;
   .pricing{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
   }
   .gallery{display: none;}
