@@ -208,11 +208,11 @@ header{
 }
 
 @media print { 
+  color: #FFFFFF;
+  background: transparent;
   .card {
     flex-basis: 200px;
   }
-  color: #FFFFFF;
-  background: transparent;
   .pricing{
     display: flex;
     flex-direction: column;
@@ -223,4 +223,8 @@ header{
   
 }
 
-@media (prefers-reduced-motion: reduce) {.logo_wiggle: none;} /*this is wrong but investigate further*/
+@media (prefers-reduced-motion: reduce)
+{
+  .logo_wiggle {animation: none;}
+}
+/*do we need to include alternate styling*/
