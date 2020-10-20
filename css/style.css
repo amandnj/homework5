@@ -88,6 +88,7 @@ footer{
   padding: 0 0 50px 0;
   display: flex;
   flex-basis: 400px;
+  flex-direction: row;
 
 }
 
@@ -192,14 +193,15 @@ header{
   header{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: right;
+    align items: center;
   }
     
 
   .nav_links{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end; /*is this the best way to align to the right side???*/
+    justify-content: right; /*is this the best way to align to the right side???*/
   }
 
   .nav_item a{
