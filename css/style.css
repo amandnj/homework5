@@ -226,6 +226,11 @@ header{
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-  .logo_wiggle {animation: none; transition: none;}
+  logo_wiggle {
+    animation: none;
+  }
+  #logo {
+    animation: none;
+  }
 }
 /*do we need to include alternate styling*/
