@@ -225,7 +225,7 @@ header{
   
 }
 
-@media (prefers-reduced-motion: reduce) {
-  logo_wiggle {animation: none;}
+@media screen and (prefers-reduced-motion: reduce) {
+  logo_wiggle {animation: none; transition: none;}
 }
 /*do we need to include alternate styling*/
