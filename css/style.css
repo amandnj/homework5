@@ -76,7 +76,6 @@ footer{
     display: flex;
     min-height: 500px;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
   
 }
@@ -160,7 +159,7 @@ header{
 .nav_links{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: right;
   /*does this need to be more things*/
 }
 
