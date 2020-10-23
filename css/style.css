@@ -225,8 +225,9 @@ header{
   
 }
 
-@media (prefers-reduced-motion: reduce)
-{
-  .logo_wiggle {animation: none;}
+@media (prefers-reduced-motion: reduce) {
+  .logo_wiggle {
+    animation: none;
+  }
 }
 /*do we need to include alternate styling*/
