@@ -226,8 +226,8 @@ header{
 
 @media screen and (prefers-reduced-motion: reduce)
 {
-  logo_wiggle {animation: none;}
-}
-{@-webkit-keyframes logo_wiggle {animation: none; -webkit-transition:none; transition:none;}
+  .logo_wiggle {animation: none;}
+  #logo {animation: none;}
+  @-webkit-keyframes logo_wiggle {animation: none; -webkit-transition:none; transition:none;}
 }
 /*do we need to include alternate styling*/
